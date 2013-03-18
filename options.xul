@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<vbox xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+  <setting pref="extensions.tabkit.tab-highlighter.highlightCurrentTab" type="bool" title="Highlight Current Tab in Black">
+    It will highlight the tab text not the whole tab
+  </setting>
+</vbox>
