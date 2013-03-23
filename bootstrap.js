@@ -56,6 +56,7 @@ Cu.import("resource://gre/modules/AddonManager.jsm");
 // But they are still part of this addon
 // Just like code separated into different files
 include("includes/prefs.js");
+include("includes/tab-unread.js");
 
 
 // Require any CommonJS style files
@@ -63,6 +64,7 @@ var utils = require("utils");
 var {unload} = require("unload");
 var {log, debug, dump} = require("console");
 var prefUtils = require("pref-utils");
+var sessionStore = require("session-store");
 
 
 //==================== Code to run with DOM Window START ====================//
@@ -81,6 +83,9 @@ var WindowListener = {
 
     // Register the preference listeners
     prefUtils.registerPrefObserver(localPrefs);
+
+    // Init after most extensions
+    window.setTimeout(function() initTabUnread(window), 0);
   },
 
   tearDownBrowserUI: function(window) {
