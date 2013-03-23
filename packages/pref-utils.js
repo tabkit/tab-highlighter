@@ -141,7 +141,12 @@ exports.mapPrefToAttribute = function (prefKey, node, attributeName, attributeVa
   // This listener must accept `aData` as parameter
   // See `PREF_OBSERVER.observe`
   var listener = function(aData) {
-    // aData is the pref key already
+    // aData is the prefKey being changed
+    // prefKey is the prefKey we want to listen to
+    if (aData !== prefKey) {
+      return;
+    }
+
     var prefValue = exports.getPref(aData);
     var newValue = attributeValueFunc(prefValue);
 
