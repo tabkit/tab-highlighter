@@ -149,14 +149,15 @@ function startup(data, reasonCode) {
 };
 
 function shutdown(data, reasonCode) {
-  // Run all the unload callbacks on shutdown
-  unload();
-
-
   // When the application is shutting down we normally don't have to clean
   // up any UI changes made
   if (reason == APP_SHUTDOWN)
     return;
+
+
+  // Run all the unload callbacks on shutdown
+  unload();
+
 
   let wm = Cc["@mozilla.org/appshell/window-mediator;1"].
            getService(Ci.nsIWindowMediator);
