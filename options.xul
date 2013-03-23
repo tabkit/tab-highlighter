@@ -3,4 +3,7 @@
   <setting pref="extensions.tabkit.tab-highlighter.highlightCurrentTab" type="bool" title="Highlight Current Tab in Black">
     It will highlight the tab text not the whole tab
   </setting>
+  <setting pref="extensions.tabkit.tab-highlighter.boldCurrentTab" type="bool" title="Make Current Tab's Text Bold">
+    The effect might not be very easy to spot :P
+  </setting>
 </vbox>

@@ -76,6 +76,7 @@ var WindowListener = {
 
 
     prefUtils.mapBoolPrefToAttribute("highlightCurrentTab", window.gBrowser.tabContainer, "tabkit-highlight-current-tab");
+    prefUtils.mapBoolPrefToAttribute("boldCurrentTab", window.gBrowser.tabContainer, "tabkit-bold-current-tab");
 
     // Register the preference listeners
     prefUtils.registerPrefObserver(localPrefs);

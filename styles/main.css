@@ -4,3 +4,8 @@
   background-color: black !important;
   color: white;
 }
+
+/* make the current tab's text(title) bold */
+.tabbrowser-tabs[tabkit-bold-current-tab] .tabbrowser-tab[selected="true"] .tab-text {
+  font-weight:bold;
+}
