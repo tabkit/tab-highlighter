@@ -2,10 +2,10 @@
 /* Highlight selected tab */
 .tabbrowser-tabs[tabkit-highlight-current-tab] .tabbrowser-tab[selected="true"] .tab-text {
   background-color: black !important;
-  color: white;
+  color: white !important;
 }
 
-/* make the current tab's text(title) bold */
+/* Make the current tab's text(title) bold */
 .tabbrowser-tabs[tabkit-bold-current-tab] .tabbrowser-tab[selected="true"] .tab-text {
-  font-weight:bold;
+  font-weight:bold !important;
 }
