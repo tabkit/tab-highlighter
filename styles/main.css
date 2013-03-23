@@ -9,3 +9,9 @@
 .tabbrowser-tabs[tabkit-bold-current-tab] .tabbrowser-tab[selected="true"] .tab-text {
   font-weight:bold !important;
 }
+
+/* Hightlight unread tabs (tabs without attribute `read`) */
+.tabbrowser-tabs[tabkit-highlight-unread-tab] .tabbrowser-tab:not([selected="true"]):not([read]) .tab-text {
+  background-color: #ff6 !important;
+  color: black !important;
+}

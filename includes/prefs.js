@@ -7,7 +7,8 @@ const PREF_BRANCH = "extensions.tabkit.tab-highlighter.";
 // Default pref values
 const PREFS = {
   highlightCurrentTab: true,
-  boldCurrentTab: true
+  boldCurrentTab: true,
+  highlightUnreadTab: true
 };
 
 // Make sure we can use gPrefService from now on (even if this isn't a browser window!)
