@@ -56,6 +56,7 @@ Cu.import("resource://gre/modules/AddonManager.jsm");
 // But they are still part of this addon
 // Just like code separated into different files
 include("includes/prefs.js");
+include("includes/init-listeners.js");
 include("includes/tab-unread.js");
 
 
@@ -84,8 +85,11 @@ var WindowListener = {
     // Register the preference listeners
     prefUtils.registerPrefObserver(localPrefs);
 
-    // Init after most extensions
-    window.setTimeout(function() initTabUnread(window), 0);
+
+    postInitListeners.push(initTabUnread);
+
+
+    runPostInitListeners(window);
   },
 
   tearDownBrowserUI: function(window) {
