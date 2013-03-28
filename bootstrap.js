@@ -78,18 +78,22 @@ var WindowListener = {
     // document.getElementById() etc. will work here
 
 
+    // === Mapping preference to attribute (for styling) ===
     prefUtils.mapBoolPrefToAttribute("highlightCurrentTab", window.gBrowser.tabContainer, "tabkit-highlight-current-tab");
     prefUtils.mapBoolPrefToAttribute("boldCurrentTab", window.gBrowser.tabContainer, "tabkit-bold-current-tab");
     prefUtils.mapBoolPrefToAttribute("highlightUnreadTab", window.gBrowser.tabContainer, "tabkit-highlight-unread-tab");
     prefUtils.mapBoolPrefToAttribute("highlightProtectedTab", window.gBrowser.tabContainer, "tabkit-highlight-protected-tab");
 
-    // Register the preference listeners
+    // === Register the preference listeners ===
+    // Otherwise the preference attribute mapping does not work
     prefUtils.registerPrefObserver(localPrefs);
 
 
+    // === Register methods that should be run after most extensions ===
+    // Since some event listeners can only be added at that time
     postInitListeners.push(initTabUnread);
 
-
+    // Run all the listeners (after a timeout)
     runPostInitListeners(window);
   },
 
