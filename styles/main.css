@@ -15,3 +15,9 @@
   background-color: #ff6 !important;
   color: black !important;
 }
+
+/* Highlight protected tabs */
+.tabbrowser-tabs[tabkit-highlight-protected-tab] .tabbrowser-tab[protected="true"]:not([selected="true"]) .tab-text {
+  background-color: green !important;
+  color: white !important;
+}

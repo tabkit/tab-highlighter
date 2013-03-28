@@ -9,4 +9,7 @@
   <setting pref="extensions.tabkit.tab-highlighter.highlightUnreadTab" type="bool" title="Highlight Unread Tab in Yellow">
     This does not require TabKit 2nd Edition
   </setting>
+  <setting pref="extensions.tabkit.tab-highlighter.highlightProtectedTab" type="bool" title="Highlight Protected Tab in Green">
+    This requires TabKit 2nd Edition
+  </setting>
 </vbox>
