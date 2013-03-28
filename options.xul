@@ -7,6 +7,6 @@
     The effect might not be very easy to spot :P
   </setting>
   <setting pref="extensions.tabkit.tab-highlighter.highlightUnreadTab" type="bool" title="Highlight Unread Tab in Yellow">
-    This requires TabKit 2nd Edition to work
+    This does not require TabKit 2nd Edition
   </setting>
 </vbox>
