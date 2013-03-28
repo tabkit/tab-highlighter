@@ -6,10 +6,10 @@
   <setting pref="extensions.tabkit.tab-highlighter.boldCurrentTab" type="bool" title="Make Current Tab's Text Bold">
     The effect might not be very easy to spot :P
   </setting>
-  <setting pref="extensions.tabkit.tab-highlighter.highlightUnreadTab" type="bool" title="Highlight Unread Tab in Yellow">
+  <setting pref="extensions.tabkit.tab-highlighter.highlightUnreadTab" type="bool" title="Highlight Unread Tabs in Yellow">
     This does not require TabKit 2nd Edition
   </setting>
-  <setting pref="extensions.tabkit.tab-highlighter.highlightProtectedTab" type="bool" title="Highlight Protected Tab in Green">
-    This requires TabKit 2nd Edition
+  <setting pref="extensions.tabkit.tab-highlighter.highlightProtectedTab" type="bool" title="Highlight Protected Tabs in Green">
+    Protected tabs feature requires TabKit 2nd Edition
   </setting>
 </vbox>
