@@ -108,7 +108,7 @@ var WindowListener = {
   onOpenWindow: function(xulWindow) {
     // A new window has opened
     let domWindow = xulWindow.QueryInterface(Ci.nsIInterfaceRequestor)
-                             .getInterface(Ci.nsIDOMWindowInternal);
+                             .getInterface(Ci.nsIDOMWindow);
 
     // Wait for it to finish loading
     domWindow.addEventListener("load", function listener() {
