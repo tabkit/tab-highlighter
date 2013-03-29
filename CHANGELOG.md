@@ -1,8 +1,8 @@
-### dev
+### Changelog
 
-First working version of restartless extension (bootstraped, without addon SDK)
 
-- New
+- **0.1.0**
+  - First working version of restartless extension (bootstraped, without addon SDK)
   - Feature: Highlight Current Tab in Black
   - Feature: Make Current Tab's Text Bold
   - Feature: Highlight Unread Tabs in Yellow
