@@ -4,7 +4,7 @@
   <r:Description about="urn:mozilla:install-manifest">
     <creator>PikachuEXE</creator>
     <id>tabkit.tab-highlighter@pikachuexe.amateur.hk</id>
-    <name>Tab Kit - TabHighlighter</name>
+    <name>Tab Kit - Tab Highlighter</name>
     <version>0.1</version>
     <bootstrap>true</bootstrap>
     <type>2</type>
