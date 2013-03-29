@@ -11,6 +11,10 @@ Features
 - Highlight Protected Tabs in Green (Protected Tabs feature requires TabKit 2nd Edition)
 - Options can be changed inside Addons Manager
 
+Install
+=======
+https://addons.mozilla.org/zh-TW/firefox/addon/tab-kit-tab-highlighter/
+
 Changes
 =======
 See CHANGELOG.md for what's changed
