@@ -13,7 +13,7 @@ Features
 
 Install
 =======
-https://addons.mozilla.org/zh-TW/firefox/addon/tab-kit-tab-highlighter/
+https://addons.mozilla.org/en-US/firefox/addon/tab-kit-tab-highlighter/
 
 Changes
 =======
