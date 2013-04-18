@@ -166,7 +166,7 @@ function startup(data, reasonCode) {
 function shutdown(data, reasonCode) {
   // When the application is shutting down we normally don't have to clean
   // up any UI changes made
-  if (reason == APP_SHUTDOWN)
+  if (reasonCode == APP_SHUTDOWN)
     return;
 
 
