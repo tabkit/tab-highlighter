@@ -17,4 +17,4 @@ https://addons.mozilla.org/en-US/firefox/addon/tab-kit-tab-highlighter/
 
 Changes
 =======
-See CHANGELOG.md for what's changed
+See https://github.com/tabkit/tab-highlighter/blob/master/CHANGELOG.md for what's changed
