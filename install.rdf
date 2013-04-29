@@ -5,7 +5,7 @@
     <creator>PikachuEXE</creator>
     <id>tabkit.tab-highlighter@pikachuexe.amateur.hk</id>
     <name>Tab Kit - Tab Highlighter</name>
-    <version>0.1.0</version>
+    <version>0.2.0</version>
     <bootstrap>true</bootstrap>
     <type>2</type>
     <homepageURL>http://github.com/tabkit</homepageURL>
@@ -17,7 +17,7 @@
       <r:Description>
         <id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</id>
         <minVersion>8.0</minVersion>
-        <maxVersion>19.*</maxVersion>
+        <maxVersion>20.*</maxVersion>
       </r:Description>
     </targetApplication>
   </r:Description>
