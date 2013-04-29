@@ -83,6 +83,8 @@ var WindowListener = {
     prefUtils.mapBoolPrefToAttribute("boldCurrentTab", window.gBrowser.tabContainer, "tabkit-bold-current-tab");
     prefUtils.mapBoolPrefToAttribute("highlightUnreadTab", window.gBrowser.tabContainer, "tabkit-highlight-unread-tab");
     prefUtils.mapBoolPrefToAttribute("highlightProtectedTab", window.gBrowser.tabContainer, "tabkit-highlight-protected-tab");
+    prefUtils.mapBoolPrefToAttribute("makeTabBackgroundSolid", window.gBrowser.tabContainer, "tabkit-make-tab-background-solid");
+    prefUtils.mapBoolPrefToAttribute("makeTabBarBackgroundSolid", window.gBrowser.tabContainer, "tabkit-make-tab-bar-background-solid");
 
     // === Register the preference listeners ===
     // Otherwise the preference attribute mapping does not work

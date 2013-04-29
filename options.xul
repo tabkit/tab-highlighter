@@ -12,4 +12,10 @@
   <setting pref="extensions.tabkit.tab-highlighter.highlightProtectedTab" type="bool" title="Highlight Protected Tabs in Green">
     Protected tabs feature requires TabKit 2nd Edition
   </setting>
+  <setting pref="extensions.tabkit.tab-highlighter.makeTabBackgroundSolid" type="bool" title="Make all tabs' background solid">
+    Maybe not so useful
+  </setting>
+  <setting pref="extensions.tabkit.tab-highlighter.makeTabBarBackgroundSolid" type="bool" title="Make tab bar's background solid">
+    Especially useful on OSX
+  </setting>
 </vbox>

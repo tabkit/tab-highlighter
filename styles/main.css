@@ -21,3 +21,13 @@
   background-color: green !important;
   color: white !important;
 }
+
+/* Make tabs' background solid */
+.tabbrowser-tabs[tabkit-make-tab-background-solid] .tabbrowser-tab {
+  background-color: -moz-dialog !important;
+}
+
+/* Make tab bar's background solid */
+.tabbrowser-tabs[tabkit-make-tab-bar-background-solid] {
+  background-color: -moz-dialog !important;
+}
