@@ -8,7 +8,7 @@
     <version>0.2.0</version>
     <bootstrap>true</bootstrap>
     <type>2</type>
-    <homepageURL>http://github.com/tabkit</homepageURL>
+    <homepageURL>https://github.com/tabkit/tab-highlighter</homepageURL>
     <description>Highlight tabs with different background colors and font styles</description>
     <optionsType>2</optionsType>
 
