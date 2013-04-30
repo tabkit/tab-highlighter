@@ -9,6 +9,8 @@ Features
 - Make Current Tab's Text Bold
 - Highlight Unread Tabs in Yellow
 - Highlight Protected Tabs in Green (Protected Tabs feature requires TabKit 2nd Edition)
+- Make Tab bar's background solid (useful when using Tab Kit's tree mode)
+- Make Tabs' background solid (Not sure what was this for, but it was in Tab Kit)
 - Options can be changed inside Addons Manager
 
 Install
