@@ -86,15 +86,6 @@ var WindowListener = {
     prefUtils.mapBoolPrefToAttribute("makeTabBackgroundSolid", window.gBrowser.tabContainer, "tabkit-make-tab-background-solid");
     prefUtils.mapBoolPrefToAttribute("makeTabBarBackgroundSolid", window.gBrowser.tabContainer, "tabkit-make-tab-bar-background-solid");
 
-    // === Register the preference listeners ===
-    // Otherwise the preference attribute mapping does not work
-    prefUtils.registerPrefObserver(localPrefs);
-
-
-    // === Register methods that should be run after most extensions ===
-    // Since some event listeners can only be added at that time
-    postInitListeners.push(initTabUnread);
-
     // Run all the listeners (after a timeout)
     runPostInitListeners(window);
   },
@@ -148,6 +139,14 @@ function startup(data, reasonCode) {
 
   // Always set the default prefs as they disappear on restart
   prefUtils.setDefaultPrefs();
+
+  // === Register the preference listeners ===
+  // Otherwise the preference attribute mapping does not work
+  prefUtils.registerPrefObserver(localPrefs);
+
+  // === Register methods that should be run after most extensions ===
+  // Since some event listeners can only be added at that time
+  postInitListeners.push(initTabUnread);
 
 
   let wm = Cc["@mozilla.org/appshell/window-mediator;1"].
