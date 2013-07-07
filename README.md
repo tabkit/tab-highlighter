@@ -1,10 +1,7 @@
-Tab Kit - Tab Highlighter
-=========================
-
+# Tab Kit - Tab Highlighter
 Highlight tabs with different background colors and font styles
 
-Features
-========
+## Features
 - Highlight Current Tab in Black
 - Make Current Tab's Text Bold
 - Highlight Unread Tabs in Yellow
@@ -13,10 +10,13 @@ Features
 - Make Tabs' background solid (Not sure what was this for, but it was in Tab Kit)
 - Options can be changed inside Addons Manager
 
-Install
-=======
+## Install
 https://addons.mozilla.org/en-US/firefox/addon/tab-kit-tab-highlighter/
 
-Changes
-=======
+## Changes
 See https://github.com/tabkit/tab-highlighter/blob/master/CHANGELOG.md for what's changed
+
+## Tab Kit Series Extensions
+- [Tab Kit 2nd Edition](https://github.com/tabkit/tabkit2)
+- [Tab Kit - Tab Highlighter](https://github.com/tabkit/tab-highlighter)
+- [Tab Kit - Mouse Gestures](https://github.com/tabkit/mouse-gestures)
