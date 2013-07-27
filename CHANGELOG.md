@@ -1,5 +1,7 @@
 ### Changelog
 
+- **0.2.1**
+  - Fix: Respect Tab Kit 2 coloring config when highlighting tabs (require TK2 version > 0.10.0)
 
 - **0.2.0**
   - Feature: Make Tab bar's background solid (useful when using Tab Kit's tree mode)
