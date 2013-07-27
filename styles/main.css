@@ -1,33 +1,54 @@
 
 /* Highlight selected tab */
-.tabbrowser-tabs[tabkit-highlight-current-tab] .tabbrowser-tab[selected="true"] .tab-text {
+.tabbrowser-tabs[tabkit-highlight-current-tab]:not([tabkit-color-label-not-tab]) .tabbrowser-tab[selected="true"] .tab-text {
   background-color: black !important;
   color: white !important;
 }
 
-/* Make the current tab's text(title) bold */
-.tabbrowser-tabs[tabkit-bold-current-tab] .tabbrowser-tab[selected="true"] .tab-text {
-  font-weight:bold !important;
-}
-
 /* Hightlight unread tabs (tabs without attribute `read`) */
-.tabbrowser-tabs[tabkit-highlight-unread-tab] .tabbrowser-tab:not([selected="true"]):not([read]) .tab-text {
+.tabbrowser-tabs[tabkit-highlight-unread-tab]:not([tabkit-color-label-not-tab]) .tabbrowser-tab:not([selected="true"]):not([read]) .tab-text {
   background-color: #ff6 !important;
   color: black !important;
 }
 
 /* Highlight protected tabs */
-.tabbrowser-tabs[tabkit-highlight-protected-tab] .tabbrowser-tab[protected="true"]:not([selected="true"]) .tab-text {
+.tabbrowser-tabs[tabkit-highlight-protected-tab]:not([tabkit-color-label-not-tab]) .tabbrowser-tab[protected="true"]:not([selected="true"]) .tab-text {
   background-color: green !important;
   color: white !important;
 }
 
+/* Make the current tab's text(title) bold */
+.tabbrowser-tabs[tabkit-bold-current-tab] .tabbrowser-tab[selected="true"] .tab-text {
+  font-weight: bold !important;
+}
+
 /* Make tabs' background solid */
 .tabbrowser-tabs[tabkit-make-tab-background-solid] .tabbrowser-tab {
-  background-color: -moz-dialog !important;
+  background-color: -moz-dialog;
 }
 
 /* Make tab bar's background solid */
 .tabbrowser-tabs[tabkit-make-tab-bar-background-solid] {
-  background-color: -moz-dialog !important;
+  background-color: -moz-dialog;
+}
+
+
+
+/* === tabkit-color-label-not-tab === */
+/* Highlight selected tab */
+.tabbrowser-tabs[tabkit-color-label-not-tab][tabkit-highlight-current-tab] .tabbrowser-tab[selected="true"] {
+  background-color: black !important;
+  color: white !important;
+}
+
+/* Hightlight unread tabs (tabs without attribute `read`) */
+.tabbrowser-tabs[tabkit-color-label-not-tab][tabkit-highlight-unread-tab] .tabbrowser-tab:not([selected="true"]):not([read]) {
+  background-color: #ff6 !important;
+  color: black !important;
+}
+
+/* Highlight protected tabs */
+.tabbrowser-tabs[tabkit-color-label-not-tab][tabkit-highlight-protected-tab] .tabbrowser-tab[protected="true"]:not([selected="true"]) {
+  background-color: green !important;
+  color: white !important;
 }
