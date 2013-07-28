@@ -38,17 +38,20 @@
 /* Highlight selected tab */
 .tabbrowser-tabs[tabkit-color-label-not-tab][tabkit-highlight-current-tab] .tabbrowser-tab[selected="true"] {
   background-image: -moz-linear-gradient(black, black) !important;
+  background-image: linear-gradient(black, black) !important;
   color: white !important;
 }
 
 /* Hightlight unread tabs (tabs without attribute `read`) */
 .tabbrowser-tabs[tabkit-color-label-not-tab][tabkit-highlight-unread-tab] .tabbrowser-tab:not([selected="true"]):not([read]) {
   background-image: -moz-linear-gradient(#ffff66, #ffff66) !important;
+  background-image: linear-gradient(#ffff66, #ffff66) !important;
   color: black !important;
 }
 
 /* Highlight protected tabs */
 .tabbrowser-tabs[tabkit-color-label-not-tab][tabkit-highlight-protected-tab] .tabbrowser-tab[protected="true"]:not([selected="true"]) {
   background-image: -moz-linear-gradient(green, green) !important;
+  background-image: linear-gradient(green, green) !important;
   color: white !important;
 }
