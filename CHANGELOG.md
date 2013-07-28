@@ -1,5 +1,8 @@
 ### Changelog
 
+- **0.2.3**
+  - Fix: Re-run initialization code after failure
+
 - **0.2.2**
   - Fix: Color Tab background properly (with background-image instead of background-color) when Tab Kit 2 apply group color on tab label
   
