@@ -7,7 +7,7 @@
 
 /* Hightlight unread tabs (tabs without attribute `read`) */
 .tabbrowser-tabs[tabkit-highlight-unread-tab]:not([tabkit-color-label-not-tab]) .tabbrowser-tab:not([selected="true"]):not([read]) .tab-text {
-  background-color: #ff6 !important;
+  background-color: #ffff66 !important;
   color: black !important;
 }
 
@@ -37,18 +37,18 @@
 /* === tabkit-color-label-not-tab === */
 /* Highlight selected tab */
 .tabbrowser-tabs[tabkit-color-label-not-tab][tabkit-highlight-current-tab] .tabbrowser-tab[selected="true"] {
-  background-color: black !important;
+  background-image: -moz-linear-gradient(black, black) !important;
   color: white !important;
 }
 
 /* Hightlight unread tabs (tabs without attribute `read`) */
 .tabbrowser-tabs[tabkit-color-label-not-tab][tabkit-highlight-unread-tab] .tabbrowser-tab:not([selected="true"]):not([read]) {
-  background-color: #ff6 !important;
+  background-image: -moz-linear-gradient(#ffff66, #ffff66) !important;
   color: black !important;
 }
 
 /* Highlight protected tabs */
 .tabbrowser-tabs[tabkit-color-label-not-tab][tabkit-highlight-protected-tab] .tabbrowser-tab[protected="true"]:not([selected="true"]) {
-  background-color: green !important;
+  background-image: -moz-linear-gradient(green, green) !important;
   color: white !important;
 }
