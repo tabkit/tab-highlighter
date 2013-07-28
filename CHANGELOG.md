@@ -1,5 +1,8 @@
 ### Changelog
 
+- **0.2.2**
+  - Fix: Color Tab background properly (with background-image instead of background-color) when Tab Kit 2 apply group color on tab label
+  
 - **0.2.1**
   - Fix: Respect Tab Kit 2 coloring config when highlighting tabs (require TK2 version > 0.10.0)
 
