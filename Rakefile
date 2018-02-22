@@ -1,5 +1,5 @@
 require 'rubygems'
-require 'zip/zip'
+require 'zip'
 
 
 desc "Extensio build script"
@@ -59,7 +59,7 @@ task :build, :version do |t, args|
 
   puts "About to build #{final_filename} with #{no_of_files} files"
 
-  Zip::ZipFile.open(File.join(output_path, final_filename), Zip::ZipFile::CREATE) do |zipfile|
+  Zip::File.open(File.join(output_path, final_filename), Zip::File::CREATE) do |zipfile|
     input_filenames.each do |filename|
       # Two arguments:
       # - The name of the file as it will appear in the archive
