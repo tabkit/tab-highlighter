@@ -5,19 +5,19 @@
     <creator>PikachuEXE</creator>
     <id>tabkit.tab-highlighter@pikachuexe.amateur.hk</id>
     <name>Tab Kit - Tab Highlighter</name>
-    <version>0.2.3</version>
+    <version>0.2.4</version>
     <bootstrap>true</bootstrap>
     <type>2</type>
     <homepageURL>https://github.com/tabkit/tab-highlighter</homepageURL>
     <description>Highlight tabs with different background colors and font styles</description>
     <optionsType>2</optionsType>
 
-    <!-- Firefox -->
+    <!-- Pale Moon -->
     <targetApplication>
       <r:Description>
-        <id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</id>
-        <minVersion>8.0</minVersion>
-        <maxVersion>23.*</maxVersion>
+        <id>{8de7fcbb-c55c-4fbe-bfc5-fc555c87dbc4}</id>
+        <minVersion>27.0</minVersion>
+        <maxVersion>27.*</maxVersion>
       </r:Description>
     </targetApplication>
   </r:Description>
