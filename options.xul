@@ -1,21 +1,22 @@
 <?xml version="1.0"?>
+<!DOCTYPE window SYSTEM "chrome://tabkit.tab-highlighter/locale/options.dtd">
 <vbox xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
-  <setting pref="extensions.tabkit.tab-highlighter.highlightCurrentTab" type="bool" title="Highlight Current Tab in Black">
-    It will highlight the tab text not the whole tab
+  <setting pref="extensions.tabkit.tab-highlighter.highlightCurrentTab" type="bool" title="&options.highlightCurrentTab.title;">
+    &options.highlightCurrentTab.desc;
   </setting>
-  <setting pref="extensions.tabkit.tab-highlighter.boldCurrentTab" type="bool" title="Make Current Tab's Text Bold">
-    The effect might not be very easy to spot :P
+  <setting pref="extensions.tabkit.tab-highlighter.boldCurrentTab" type="bool" title="&options.boldCurrentTab.title;">
+    &options.boldCurrentTab.desc;
   </setting>
-  <setting pref="extensions.tabkit.tab-highlighter.highlightUnreadTab" type="bool" title="Highlight Unread Tabs in Yellow">
-    This does not require TabKit 2nd Edition
+  <setting pref="extensions.tabkit.tab-highlighter.highlightUnreadTab" type="bool" title="&options.highlightUnreadTab.title;">
+    &options.highlightUnreadTab.desc;
   </setting>
-  <setting pref="extensions.tabkit.tab-highlighter.highlightProtectedTab" type="bool" title="Highlight Protected Tabs in Green">
-    Protected tabs feature requires TabKit 2nd Edition
+  <setting pref="extensions.tabkit.tab-highlighter.highlightProtectedTab" type="bool" title="&options.highlightProtectedTab.title;">
+    &options.highlightProtectedTab.desc;
   </setting>
-  <setting pref="extensions.tabkit.tab-highlighter.makeTabBackgroundSolid" type="bool" title="Make all tabs' background solid">
-    Maybe not so useful
+  <setting pref="extensions.tabkit.tab-highlighter.makeTabBackgroundSolid" type="bool" title="&options.makeTabBackgroundSolid.title;">
+    &options.makeTabBackgroundSolid.desc;
   </setting>
-  <setting pref="extensions.tabkit.tab-highlighter.makeTabBarBackgroundSolid" type="bool" title="Make tab bar's background solid">
-    Especially useful on OSX
+  <setting pref="extensions.tabkit.tab-highlighter.makeTabBarBackgroundSolid" type="bool" title="&options.makeTabBarBackgroundSolid.title;">
+    &options.makeTabBarBackgroundSolid.desc;
   </setting>
 </vbox>

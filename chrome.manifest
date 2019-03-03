@@ -1,0 +1,3 @@
+content tabkit.tab-highlighter ./
+
+locale tabkit.tab-highlighter en-US locale/en-US/

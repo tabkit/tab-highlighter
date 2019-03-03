@@ -1,0 +1,18 @@
+
+<!ENTITY options.highlightCurrentTab.title "Highlight Current Tab in Black">
+<!ENTITY options.highlightCurrentTab.desc "It will highlight the tab text not the whole tab">
+
+<!ENTITY options.boldCurrentTab.title "Make Current Tab's Text Bold">
+<!ENTITY options.boldCurrentTab.desc "The effect might not be very easy to spot :P">
+
+<!ENTITY options.highlightUnreadTab.title "Highlight Unread Tabs in Yellow">
+<!ENTITY options.highlightUnreadTab.desc "This does not require TabKit 2nd Edition">
+
+<!ENTITY options.highlightProtectedTab.title "Highlight Protected Tabs in Green">
+<!ENTITY options.highlightProtectedTab.desc "Protected tabs feature requires TabKit 2nd Edition">
+
+<!ENTITY options.makeTabBackgroundSolid.title "Make all tabs' background solid">
+<!ENTITY options.makeTabBackgroundSolid.desc "Maybe not so useful">
+
+<!ENTITY options.makeTabBarBackgroundSolid.title "Make tab bar's background solid">
+<!ENTITY options.makeTabBarBackgroundSolid.desc "Especially useful on OSX">
