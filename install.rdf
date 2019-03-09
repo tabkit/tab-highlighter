@@ -12,6 +12,8 @@
     <description>Highlight tabs with different background colors and font styles</description>
     <optionsType>2</optionsType>
 
+    <em:translator>四天王寺 (for Japanese)</em:translator>
+
     <!-- Pale Moon -->
     <targetApplication>
       <r:Description>

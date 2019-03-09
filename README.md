@@ -20,3 +20,6 @@ See https://github.com/tabkit/tab-highlighter/blob/master/CHANGELOG.md for what'
 - [Tab Kit 2nd Edition](https://github.com/tabkit/tabkit2)
 - [Tab Kit - Tab Highlighter](https://github.com/tabkit/tab-highlighter)
 - [Tab Kit - Mouse Gestures](https://github.com/tabkit/mouse-gestures)
+
+## Contributors
+- 四天王寺 (Japanese translation)

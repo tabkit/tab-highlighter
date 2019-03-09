@@ -1,0 +1,18 @@
+
+<!ENTITY options.highlightCurrentTab.title "現在のタブを黒で強調表示">
+<!ENTITY options.highlightCurrentTab.desc "タブ全体ではなくタブテキストを強調表示します">
+
+<!ENTITY options.boldCurrentTab.title "現在のタブのテキストを太字にする">
+<!ENTITY options.boldCurrentTab.desc "効果（その差）は判別しづらいかもしれません：P">
+
+<!ENTITY options.highlightUnreadTab.title "未読タブを黄色でハイライト表示">
+<!ENTITY options.highlightUnreadTab.desc "これは、TabKit 2nd Edition を必要としません">
+
+<!ENTITY options.highlightProtectedTab.title "保護されたタブを緑色でハイライト表示する">
+<!ENTITY options.highlightProtectedTab.desc "保護されたタブ機能には、TabKit 2nd Edition が必要です">
+
+<!ENTITY options.makeTabBackgroundSolid.title "すべてのタブの背景を単色にする">
+<!ENTITY options.makeTabBackgroundSolid.desc "たぶん、あまり役に立ちません">
+
+<!ENTITY options.makeTabBarBackgroundSolid.title "タブバーの背景を単色にする">
+<!ENTITY options.makeTabBarBackgroundSolid.desc "OSX で、特に役に立ちます">

@@ -1,3 +1,4 @@
 content tabkit.tab-highlighter ./
 
 locale tabkit.tab-highlighter en-US locale/en-US/
+locale tabkit.tab-highlighter ja    locale/ja/
